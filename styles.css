@@ -61,7 +61,7 @@ nav ul li {
   max-width: 700px;
   margin: 0 auto;
   margin-top: 70px;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   color: white;
 }
 
@@ -90,23 +90,34 @@ nav ul li {
   justify-content: space-around;
 }
 
-
 /**later **/
-.store-buttons object svg{
+.store-buttons object svg {
   cursor: pointer;
 }
 
-.phones{
+.phones {
   display: flex;
   /* justify-content: center; */
   align-items: center;
   /* overflow: hidden;
   position: absolute; */
+  /* overflow-x: hidden; */
 }
-.phones:first-child{
+.phones:first-child {
   /* transform: rotate(-22.73deg); */
 }
 
-.phones:last-child{
+.phones:last-child {
   /* transform: rotate(22.73deg); */
+}
+.earl {
+  /* background: #029f58; */
+  background: #fafafa;
+  background-image: url(/assets/images/earl.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  height: 400px;
+  height: 100%;
+  overflow: hidden;
 }
