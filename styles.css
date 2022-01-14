@@ -1,9 +1,8 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    font-family: 'DM Sans', sans-serif;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "DM Sans", sans-serif;
 }
-
 
 .hero {
   background: #029f58;
@@ -11,11 +10,103 @@
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
-  height: 100%;
+  /* height: 100%; */
+}
+
+.hero-main {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  border-radius: 30%;
+}
+
+.logo-text {
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+nav ul li {
+  padding-right: 52px;
+  font-size: 14px;
+  /* line-height: 30px; */
+}
+
+.hero-content {
+  max-width: 700px;
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.hero-content h1 {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 130px;
+  line-height: 94.6%;
+  /* or 123px */
+
+  text-align: center;
+  letter-spacing: -0.06em;
+}
+
+.hero-content p {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.store-buttons {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
 }
 
 
-.hero-main{
-    max-width: 1400px;
-    margin: 0 auto;
+/**later **/
+.store-buttons object svg{
+  cursor: pointer;
+}
+
+.phones{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  /* overflow: hidden;
+  position: absolute; */
+}
+.phones:first-child{
+  /* transform: rotate(-22.73deg); */
+}
+
+.phones:last-child{
+  /* transform: rotate(22.73deg); */
 }
