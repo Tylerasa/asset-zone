@@ -516,3 +516,87 @@ nav ul li {
 
   opacity: 0.6;
 }
+
+.assurance-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 68px;
+  line-height: 101.1%;
+  letter-spacing: -0.03em;
+  color: #007640;
+  width: 30%;
+  margin-bottom: 30px;
+}
+
+#assurance {
+  padding: 130px 0;
+}
+
+.assurance-left {
+  width: 600px;
+}
+
+.grid-item {
+  margin: auto;
+  width: 90%;
+  display: flex;
+}
+
+.grid-right h4 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 116.6%;
+  letter-spacing: -0.03em;
+  color: #121212;
+}
+
+.grid-right p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 150%;
+  color: #121212;
+  opacity: 0.6;
+}
+
+.grid-left {
+  margin-right: 20px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid-left-item {
+  width: 18px;
+  height: 18px;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  height: 150px;
+  display: block;
+  border-left: 1px solid black;
+  width: 1px;
+  opacity: 0.2;
+}
+
+.inner-circle {
+  width: 12px;
+  height: 12px;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: block;
+  opacity: 0.2;
+  background-color: black;
+}
+
+
+.asssurance-grid{
+  display: flex;
+}
