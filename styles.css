@@ -243,8 +243,19 @@ nav ul li {
   opacity: 0.6;
   width: 60%;
 }
+.fans-button {
+  background: #ffbb62;
+  border-radius: 50px;
 
+  padding: 5px 30px;
+}
 
-#fans{
+#fans {
   padding: 100px;
+}
+
+.fans-breaker {
+  display: block;
+  height: 30px;
+  visibility: collapse;
 }
