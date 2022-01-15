@@ -10,6 +10,7 @@
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
+
   /* height: 100%; */
 }
 
@@ -110,6 +111,7 @@ nav ul li {
 .phones:last-child {
   /* transform: rotate(22.73deg); */
 }
+
 .earl {
   /* background: #029f58; */
   background: #fafafa;
@@ -117,7 +119,139 @@ nav ul li {
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
-  height: 400px;
   height: 100%;
   overflow: hidden;
+}
+
+.earl .hero-content h2 {
+  position: relative;
+  z-index: 2;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 101.1%;
+  letter-spacing: -0.03em;
+  color: #007640;
+  margin-right: 167px;
+  max-width: 560px;
+}
+
+.earl-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.earl-text {
+  /* font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 150%;
+  color: black;
+  opacity: 0.6;
+  text-align: left;
+  position: relative;
+  right: 0; */
+  font-size: 20px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  max-width: 683px;
+  margin-top: 20px;
+}
+
+.earl-logo-2 {
+  position: absolute;
+  left: 53px;
+  transform: translateY(-103px);
+  width: 169px;
+}
+
+.earl-left img {
+  margin-right: -135px;
+  transform: translateY(-174px);
+  position: absolute;
+  top: 40%;
+  left: 0%;
+}
+
+
+
+.earl-left{
+  position: relative;
+}
+
+
+.earl {
+  background: #fafafa;
+    background-image: url(/assets/images/earl.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    /* height: 100%; */
+    overflow: hidden;
+}
+
+
+.hero_container{
+  max-width: 1400px;
+  margin: 0 auto;
+} 
+
+.earl-content{
+  display: -moz-box;
+    display: flex;
+    -moz-box-pack: justify;
+    justify-content: space-between;
+    -moz-box-align: center;
+    align-items: center;
+
+}
+
+
+.earl-left-img {
+  width: 150px;
+  position: relative;
+  left: 53px;
+  -webkit-transform: translateY(-103px);
+  -moz-transform: translateY(-103px);
+  transform: translateY(-103px);
+
+}
+
+
+.earl .earl-left h2 {
+  position: relative;
+  z-index: 2;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 101.1%;
+  letter-spacing: -.03em;
+  color: #007640;
+  margin-right: 167px;
+  max-width: 560px;
+  margin-left: 100px;
+  margin-top: -40px;
+}
+
+
+/* 
+.earl .earl-left-img img {
+  width: 400px;
+  /* -webkit-transform: translateY(-174px);
+  -moz-transform: translateY(-174px);
+  transform: translateY(-300px); */
+  float: right;
+  margin-top: -90px;
+  top: 150px;
+  margin-bottom: -63px;
+
+
+} */
+
+.earl-text{
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(0,0,0,.6);
+  width: 100%;
+  max-width: 683px;
+  margin-top: 20px;
 }
