@@ -596,7 +596,66 @@ nav ul li {
   background-color: black;
 }
 
-
-.asssurance-grid{
+.asssurance-grid {
   display: flex;
+}
+
+.game-main {
+  background: #029f58;
+  background-image: url(/assets/images/hero.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  height: 600px;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: -420px;
+  z-index: 5;
+  position: relative;
+  border-radius: 100px;
+}
+
+.game-text h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 102.6%;
+  /* or 74px */
+
+  letter-spacing: -0.03em;
+
+  color: #ffffff;
+}
+
+.game-text p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  /* identical to box height, or 30px */
+
+  color: #ffffff;
+}
+
+.game-wrapper {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+  align-items: end;
+  height: -webkit-fill-available;
+}
+
+.game-text {
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.store-hp-buttons{
+  display: flex;
+  width: 100%;
 }
