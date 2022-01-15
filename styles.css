@@ -765,6 +765,30 @@ input[type="email"] {
   margin-bottom: 20px;
 }
 
-.nav-item{
+.nav-item {
   cursor: pointer;
+}
+
+@media (max-width: 1200px) and (min-width: 1000px) {
+  nav {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .hero-main,
+  .game-main,
+  footer {
+    width: 1000px;
+  }
+
+  .fans-2-text {
+    margin-left: 100px;
+  }
+  .earl .earl-left h2 {
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .grid-item {
+    width: 100%;
+  }
 }
