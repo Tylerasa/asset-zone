@@ -248,14 +248,177 @@ nav ul li {
   border-radius: 50px;
 
   padding: 5px 30px;
+  height: 32px;
 }
 
 #fans {
   padding: 100px;
+  height: 100%;
 }
 
 .fans-breaker {
   display: block;
   height: 30px;
   visibility: collapse;
+}
+
+/* #fans-2 {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-self: normal;
+}
+
+.fans-2-text {
+  width: 50%;
+  background: #029f58;
+  background-image: url(/assets/images/hero.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
+.fans-2-text h2 {
+  font-weight: 500;
+  font-size: 68px;
+  line-height: 101.1%;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+
+.chat {
+  background: #fafafa;
+  background-image: url(/assets/images/earl.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  overflow: hidden;
+} */
+
+#fans-2 {
+  /* background-image: url(/assets/images/hero.png);  */
+  /* background: linear-gradient(to right, #029f58 0%, #029f58 50%, #fafafa 50%, #fafafa 100%); */
+  background: #029f58;
+  background-image: url(/assets/images/hero.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  /* height: 100%; */
+}
+
+.fans-2-content {
+  display: flex;
+}
+.fans-2-text {
+  width: 50%;
+}
+
+.chat {
+  background: #fafafa;
+  background-image: url(/assets/images/earl.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  overflow: hidden;
+  width: 50%;
+}
+
+.fans-2-main {
+  /* max-width: 1200px; */
+  margin: 0 auto;
+}
+
+.fans-2-text-wrapper {
+  max-width: 600px;
+  margin-left: auto;
+  padding-top: 100px;
+}
+
+.chat-fans {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 70%;
+}
+
+.fans-2-text-wrapper h2 {
+  font-weight: 500;
+  font-size: 68px;
+  line-height: 100.1%;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+  max-width: 70%;
+}
+.fans-2-text-wrapper p {
+  max-width: 70%;
+  margin-top: 30px;
+  color: white;
+}
+
+.chat-wrapper {
+  max-width: 600px;
+  margin-right: auto;
+  max-width: 70%;
+  margin-left: auto;
+}
+.top-bar {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 60px;
+  align-items: center;
+}
+
+.profile-container {
+  margin: 0 10px;
+}
+
+.bubble {
+  background-color: white;
+  margin-top: 30px;
+  width: fit-content;
+  max-width: 70%;
+  padding: 20px;
+}
+
+.bubble-right {
+  margin-left: auto;
+  border-radius: 20px 20px 0px 20px;
+}
+
+.bubble-left {
+  margin-right: auto;
+  border-radius: 15px 15px 15px 0px;
+}
+
+.time {
+  float: right;
+  font-size: 12px;
+}
+
+.time-left {
+  float: left;
+  font-size: 12px;
+}
+
+.chat-bar {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 80px;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.inner-chat-bar {
+  width: 90%;
+  background: #f3f3f3;
+  border-radius: 10px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
 }
