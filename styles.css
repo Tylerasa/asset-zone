@@ -185,7 +185,7 @@ nav ul li {
   color: #007640;
   margin-right: 167px;
   max-width: 560px;
-  margin-left: 100px;
+  /* margin-left: 100px; */
   margin-top: -40px;
 }
 
@@ -237,7 +237,7 @@ nav ul li {
 
 .fans p {
   font-weight: normal;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 150%;
   color: #121212;
   opacity: 0.6;
@@ -339,6 +339,13 @@ nav ul li {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 95%;
+}
+
+.chat-fans-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   max-width: 80%;
 }
 
@@ -431,12 +438,11 @@ nav ul li {
 
 .influencer-img {
   width: 600px;
-  margin-left: auto;
-  margin-right: 100px;
+  margin-left: 0;
 }
 .influencer-text {
   width: 600px;
-  margin-left: 100px;
+  margin-left: 120px;
 }
 .influencer-text h2 {
   font-weight: 500;
@@ -449,7 +455,7 @@ nav ul li {
 .influencer-text p {
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 150%;
   color: #121212;
   opacity: 0.6;
@@ -464,7 +470,7 @@ nav ul li {
 }
 
 #filter {
-  background: #202020;
+  background: #272727;
   background-image: url(/assets/images/hero.png);
   background-repeat: no-repeat;
   background-position: 50%;
@@ -474,26 +480,34 @@ nav ul li {
 .filter-main {
   margin: 0 auto;
   display: flex;
+  /* max-width: 600px; */
+  /* width: 1200px; */
 }
 
 .card {
-  background: #272727;
+  /* background: #272727;
   background-image: url(/assets/images/earl.png);
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
-  overflow: hidden;
+  overflow: hidden; */
   width: 50%;
   padding-bottom: 100px;
 }
 
+.card .influencer-img {
+  max-width: 600px;
+  margin-left: auto;
+  /* padding-top: 100px; */
+}
 .filter-text {
   width: 50%;
+  background: #202020;
 }
 
 .filter-text-wrapper {
   max-width: 600px;
-  margin-left: 100px;
+  margin-left: 70px;
   padding-top: 100px;
 }
 
@@ -510,7 +524,7 @@ nav ul li {
 .filter-text-wrapper p {
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 150%;
   /* or 30px */
 
@@ -556,7 +570,7 @@ nav ul li {
 .grid-right p {
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 18 px;
   line-height: 150%;
   color: #121212;
   opacity: 0.6;
@@ -611,7 +625,7 @@ nav ul li {
   height: 600px;
   max-width: 1200px;
   margin: 0 auto;
-  margin-top: -420px;
+  margin-top: -280px;
   z-index: 5;
   position: relative;
   border-radius: 100px;
@@ -768,27 +782,326 @@ input[type="email"] {
 .nav-item {
   cursor: pointer;
 }
+/* .filter-text-wrapper h2 {
+  width: 80%;
+}
 
-@media (max-width: 1200px) and (min-width: 1000px) {
+.filter-text-wrapper p {
+  width: 80%;
+} */
+
+@media (max-width: 1300px) and (min-width: 1200px) {
+  .earl .earl-left h2 {
+    font-size: 65px;
+  }
+  .fans-text h2,
+  .influencer-text h2,
+  .fans-2-text-wrapper h2,
+  .assurance-title {
+    font-size: 55px;
+  }
+
+  .earl-left {
+    padding-left: 60px;
+  }
+  #fans {
+    padding: 120px;
+    /* padding-right: 70px; */
+    /* padding-left: 0; */
+    padding-left: 60px;
+  }
+  .fans-2-text-wrapper {
+    padding-left: 60;
+    margin-left: 0;
+  }
+  .fans-2-text-wrapper h2,
+  .fans-2-text-wrapper p {
+    max-width: 80%;
+  }
+
+  .influencer-img-wrapper .influencer-img img {
+    padding-left: 60;
+    width: 80%;
+  }
+  .filter-text-wrapper h2,
+  .filter-text-wrapper p {
+    width: 95%;
+  }
+
+  .assurance-title,
+  .asssurance-grid {
+    padding-left: 60;
+  }
+}
+
+@media (max-width: 1220px) and (min-width: 1200px) {
+  #game, footer {
+    width: 1110px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 1100px) {
   nav {
     padding-left: 20px;
     padding-right: 20px;
   }
-  .hero-main,
+  /* .hero-main,
   .game-main,
   footer {
     width: 1000px;
-  }
+  } */
 
   .fans-2-text {
     margin-left: 100px;
   }
   .earl .earl-left h2 {
     margin-right: 0;
-    margin-left: 0;
+    margin-left: 100px;
     margin-top: 0;
+    font-size: 60px;
   }
   .grid-item {
     width: 100%;
+  }
+  .earl-text {
+    margin-left: 100px;
+  }
+
+  .profiles {
+    width: 600px;
+  }
+  .fans-text h2 {
+    font-size: 55px;
+    width: 100%;
+  }
+
+  .fans-text {
+    max-width: 400px;
+  }
+
+  .fans-2-text-wrapper h2 {
+    font-size: 60px;
+    max-width: 90%;
+  }
+
+  .chat-bar {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .hero-main .influencer-img img {
+    margin-left: 0;
+    width: 70%;
+  }
+  .influencer-text {
+    margin-left: 50px;
+  }
+  .influencer-text p {
+    font-size: 16px;
+  }
+  .fans-2-text-wrapper p {
+    font-size: 16px;
+  }
+
+  .card .influencer-img {
+    width: 500px;
+    margin-left: 50px;
+  }
+
+  .card .influencer-img img {
+    width: -webkit-fill-available;
+    margin-left: auto;
+    margin-right: 100px;
+    /* margin-left: 50px; */
+    margin-left: 0;
+  }
+
+  .filter-text-wrapper {
+    max-width: 500px;
+    margin-left: 50px;
+  }
+  .filter-text-wrapper h2 {
+    font-size: 50px;
+  }
+  .filter-text-wrapper p {
+    font-size: 16px;
+  }
+  .assurance-title,
+  .assurance-left {
+    margin-left: 100px;
+  }
+  .fans-text p {
+    width: 80%;
+    font-size: 16px;
+  }
+  .assurance-right {
+    width: 500px;
+  }
+  #fans {
+    padding: 0;
+    padding-top: 100px;
+  }
+  .fans-text {
+    margin-left: 100px;
+  }
+
+  footer {
+    width: 950px;
+  }
+}
+
+@media (max-width: 1000px) and (min-width: 800px) {
+  nav {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .hero-main {
+    width: 800px;
+  }
+  .hero-content h1 {
+    font-size: 100px;
+  }
+  .earl .earl-left h2 {
+    margin-left: 50px;
+    margin-right: 0;
+    width: 400px;
+    font-size: 40px;
+  }
+  .earl-left p {
+    margin-left: 50px;
+    position: relative;
+    margin-top: 5px;
+  }
+  .earl-left img {
+    width: 20%;
+  }
+
+  #fans {
+    padding: 50px;
+  }
+  .fans-text h2 {
+    font-size: 40px;
+  }
+
+  .fans p {
+    font-size: 18px;
+  }
+  .profiles img {
+    width: 70%;
+    transform: rotate(3.39deg);
+  }
+  .fans-text {
+    width: 400px;
+  }
+  .profiles {
+    width: 300px;
+  }
+  .fans-text h2 {
+    width: auto;
+  }
+  .fans p {
+    width: auto;
+  }
+  .fans-2-text-wrapper {
+    margin-left: 50px;
+  }
+  .fans-2-text-wrapper h2 {
+    max-width: fit-content;
+  }
+  .chat-fans {
+    max-width: 95%;
+  }
+  .fans-2-text-wrapper p {
+    max-width: 95%;
+  }
+
+  .chat-wrapper {
+    max-width: 90%;
+  }
+  .chat-bar {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .influencer-img {
+    width: 500px;
+    margin-left: 50px;
+    margin-right: 0;
+  }
+
+  .influencer-text {
+    width: 500px;
+    margin-left: 0;
+  }
+
+  .influencer-text h2 {
+    font-size: 40px;
+  }
+  .filter-text-wrapper {
+    max-width: 500px;
+    margin-left: 50px;
+  }
+
+  .filter-text-wrapper h2 {
+    width: 95%;
+    font-size: 40px;
+  }
+
+  .filter-text-wrapper p {
+    width: 95%;
+    font-size: 18px;
+  }
+  .influencer-img img {
+    width: 90%;
+  }
+  .card .influencer-img {
+    margin-left: 20px;
+  }
+  .card .influencer-img img {
+    width: 70%;
+  }
+
+  .assurance-title {
+    font-size: 40px;
+    margin-left: 50px;
+  }
+  .grid-right h4 {
+    font-size: 28px;
+  }
+
+  .grid-right p {
+    font-size: 16px;
+  }
+  .assurance-right {
+    margin-right: 60px;
+  }
+
+  .store-hp-buttons object {
+    width: 150px;
+  }
+
+  .game-text h3 {
+    font-size: 50px;
+  }
+  .game-text p {
+    font-size: 18px;
+  }
+  .game-text {
+    margin-left: 0;
+  }
+
+  footer {
+    max-width: 750px;
+  }
+
+  .footer-main .title {
+    font-size: 22px;
+  }
+  .footer-list {
+    font-size: 18px;
+  }
+
+  .footer-link-header {
+    font-size: 22px;
   }
 }
