@@ -835,17 +835,28 @@ input[type="email"] {
 }
 
 @media (max-width: 1220px) and (min-width: 1200px) {
-  #game, footer {
+  #game,
+  footer {
     width: 1110px;
     margin: auto;
   }
 }
 
-@media (max-width: 1199px) and (min-width: 1100px) {
-  nav {
-    padding-left: 20px;
-    padding-right: 20px;
+@media (max-width: 1200px) and (min-width: 1100px) {
+  .hero-content h1 {
+    font-size: 120px;
   }
+
+  nav {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .earl-left img {
+    margin-left: 100px;
+    width: 100px;
+  }
+
   /* .hero-main,
   .game-main,
   footer {
@@ -859,7 +870,7 @@ input[type="email"] {
     margin-right: 0;
     margin-left: 100px;
     margin-top: 0;
-    font-size: 60px;
+    font-size: 50px;
   }
   .grid-item {
     width: 100%;
@@ -869,10 +880,10 @@ input[type="email"] {
   }
 
   .profiles {
-    width: 600px;
+    width: 500px;
   }
   .fans-text h2 {
-    font-size: 55px;
+    font-size: 50px;
     width: 100%;
   }
 
@@ -945,9 +956,48 @@ input[type="email"] {
     margin-left: 100px;
   }
 
-  footer {
+  footer,
+  #game {
     width: 950px;
+    margin: 0 auto;
   }
+
+  .influencer-img-wrapper {
+    width: 500px;
+    margin-left: 100px;
+  }
+
+  .hero-main .influencer-img img {
+    width: 50%;
+  }
+  .influencer-text h2 {
+    font-size: 50px;
+  }
+  .influencer-text {
+    /* margin-left: 25px; */
+  }
+
+  .influencer-text h2, .influencer-text p{
+    width: 80%
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 @media (max-width: 1000px) and (min-width: 800px) {
