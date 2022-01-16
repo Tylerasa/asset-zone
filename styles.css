@@ -1106,27 +1106,78 @@ input[type="email"] {
     transform: translate(70px, 27px);
   }
 
-  .footer-link-header, .footer-main .title{
+  .footer-link-header,
+  .footer-main .title {
     font-size: 22px;
   }
 
-  .footer-link-text{
+  .footer-link-text {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 999px) and (min-width: 700px) {
+  .hero-content h1 {
+    font-size: 80px;
+  }
+
+  .nav-item {
+    font-size: 13px;
+  }
+
+  .earl .earl-left h2,
+  .fans-2-text-wrapper h2,
+  .game-text h3 {
+    font-size: 40px;
+  }
+
+  .earl-left p,
+  .filter-text-wrapper p,
+  .fans p {
     font-size: 16px;
   }
 
-}
-/* 
-@media (max-width: 1000px) and (min-width: 800px) {
+  .profile-wrapper {
+    transform: translateX(-20px);
+  }
+  .profiles {
+    transform: scale(0.5);
+  }
+
+  .chat-fans-2 {
+    max-width: 90%;
+  }
+
+  .influencer-img-wrapper {
+    width: 50%;
+  }
+
+  .influencer-img {
+    width: 400px;
+  }
+
+  .influencer-img img {
+    width: 60%;
+    margin-left: 50px;
+    margin-right: 0;
+  }
+
+  .filter-text-wrapper {
+    margin-left: 30px;
+    padding-top: 20px;
+  }
+
+  .asssurance-grid {
+    margin-left: 50px;
+  }
+  .assurance-right img {
+    /* width: 50%; */
+  }
   nav {
     padding-left: 10px;
     padding-right: 10px;
   }
-  .hero-main {
-    width: 800px;
-  }
-  .hero-content h1 {
-    font-size: 100px;
-  }
+
   .earl .earl-left h2 {
     margin-left: 50px;
     margin-right: 0;
@@ -1144,18 +1195,12 @@ input[type="email"] {
 
   #fans {
     padding: 50px;
+    height: 500px;
   }
   .fans-text h2 {
     font-size: 40px;
   }
 
-  .fans p {
-    font-size: 18px;
-  }
-  .profiles img {
-    width: 70%;
-    transform: rotate(3.39deg);
-  }
   .fans-text {
     width: 400px;
   }
@@ -1188,11 +1233,8 @@ input[type="email"] {
     padding-left: 10px;
     padding-right: 10px;
   }
-
-  .influencer-img {
-    width: 500px;
-    margin-left: 50px;
-    margin-right: 0;
+  .card .influencer-img img {
+    margin: 0;
   }
 
   .influencer-text {
@@ -1203,10 +1245,6 @@ input[type="email"] {
   .influencer-text h2 {
     font-size: 40px;
   }
-  .filter-text-wrapper {
-    max-width: 500px;
-    margin-left: 50px;
-  }
 
   .filter-text-wrapper h2 {
     width: 95%;
@@ -1215,10 +1253,6 @@ input[type="email"] {
 
   .filter-text-wrapper p {
     width: 95%;
-    font-size: 18px;
-  }
-  .influencer-img img {
-    width: 90%;
   }
   .card .influencer-img {
     margin-left: 20px;
@@ -1232,11 +1266,11 @@ input[type="email"] {
     margin-left: 50px;
   }
   .grid-right h4 {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   .grid-right p {
-    font-size: 16px;
+    font-size: 14px;
   }
   .assurance-right {
     margin-right: 60px;
@@ -1246,9 +1280,7 @@ input[type="email"] {
     width: 150px;
   }
 
-  .game-text h3 {
-    font-size: 50px;
-  }
+
   .game-text p {
     font-size: 18px;
   }
@@ -1256,8 +1288,10 @@ input[type="email"] {
     margin-left: 0;
   }
 
-  footer {
-    max-width: 750px;
+  footer,
+  #game {
+    max-width: 800px;
+    margin: auto;
   }
 
   .footer-main .title {
@@ -1270,4 +1304,33 @@ input[type="email"] {
   .footer-link-header {
     font-size: 22px;
   }
-} */
+
+  .game-img-wrapper {
+    transform: scale(0.9);
+  }
+
+  .game-img-wrapper img {
+    transform: translate(40px, 27px);
+  }
+  .icons-wrapper{
+    margin: auto;
+  }
+  .green-flex{
+    justify-content: center;
+  }
+  .footer-main{
+    padding-right: 20px;
+  }
+
+  .footer-link-header, .footer-main .title{
+    font-size: 20px;
+  }
+
+  .footer-link-text{
+    font-size: 16px;
+  }
+
+  input[type="email"]{
+  padding: 10px;
+  }
+}
