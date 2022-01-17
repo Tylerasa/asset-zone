@@ -1344,7 +1344,7 @@ input[type="email"] {
   }
 }
 
-@media (max-width: 699.5px) and (min-width: 600px) {
+@media (max-width: 699.5px) and (min-width: 640px) {
   .hero-content h1 {
     font-size: 70px;
   }
@@ -1359,6 +1359,12 @@ input[type="email"] {
     display: none;
   }
 
+  nav {
+    padding-left: 50px;
+  }
+  nav ul {
+    display: none;
+  }
   .earl-content {
     padding: 50px;
   }
@@ -1570,11 +1576,578 @@ input[type="email"] {
     width: 100%;
     margin-top: 20px;
   }
-  .list-wrapper{
-  flex-direction: column;
+  .list-wrapper {
+    flex-direction: column;
+  }
+  .blank {
+    display: none;
+  }
+}
+
+@media (max-width: 639.5px) and (min-width: 500px) {
+  .hero-content h1 {
+    font-size: 70px;
+  }
+
+
+
+  .hero-content {
+    padding: 50px;
+  }
+  object {
+    width: 150px;
+  }
+  .left-phone,
+  .right-phone,
+  .main-phone,
+  .phones-wrap,
+  .earl-right-img {
+    display: none;
+  }
+  nav {
+    padding-left: 50px;
+  }
+  nav ul {
+    display: none;
+  }
+
+  .earl-content {
+    padding: 50px;
+  }
+
+  .earl-left img {
+    width: 20%;
+  }
+
+  .earl .earl-left h2 {
+    margin-top: 20px;
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .earl-text,
+  .fans-2-text-wrapper p,
+  .influencer-text p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  #fans {
+    padding: 50px;
+  }
+
+  .fans {
+    width: 100%;
+    display: block;
+  }
+  .fans-text {
+    max-width: 100%;
+  }
+
+  .fans-text h2,
+  .fans-2-text-wrapper h2,
+  .influencer-text h2,
+  .filter-text-wrapper h2 {
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .fans p {
+    width: 100%;
+    text-align: center;
+  }
+
+  .profiles {
+    transform: scale(0.5);
+    top: 50%;
+    width: 100%;
+    margin-left: -35px;
+  }
+
+  .profile-wrapper {
+    transform: translate(130px, 600px);
+  }
+  .fans-2-main {
+    display: block;
+  }
+  .fans-2-text {
+    width: 100%;
+    padding: 50px;
+  }
+
+  .chat-fans-2,
+  .fans-2-text-wrapper h2,
+  .fans-2-text-wrapper p {
+    max-width: 100%;
+  }
+  .fans-2-text-wrapper {
+    padding-top: 0;
+  }
+
+  .chat {
+    width: 100%;
+  }
+
+  .chat-wrapper object {
+    margin-left: 10px;
+    width: auto;
+  }
+
+  #influencer {
+    padding: 50px;
+    padding-bottom: 0;
+  }
+  .influencer {
+    flex-direction: column-reverse;
+  }
+
+  .influencer-img-wrapper {
+    width: 100%;
+  }
+
+  .influencer-img-wrapper .influencer-img {
+    width: 100%;
+  }
+
+  .influencer-img-wrapper .influencer-img img {
+    width: 50%;
+    margin: auto;
+  }
+  .influencer-text {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .filter-main {
+    flex-direction: column;
+    /* padding: 50px; */
+  }
+  .card .influencer-img img {
+    width: 80%;
+  }
+
+  .card .influencer-img {
+    max-width: max-content;
+  }
+  .filter-main {
+    /* padding: 50px; */
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .filter-text {
+    width: 100%;
+  }
+  .filter-text-wrapper {
+    margin-left: 0;
+  }
+  /* .card {
+    margin: auto;
+    width: 60%;
+    margin-left: 20%;
+  } */
+  .filter-text {
+    padding: 50px;
+  }
+
+  .assurance-title {
+    font-size: 40px;
+    padding-left: 50px;
+    width: 100%;
+  }
+
+  .grid-right h4 {
+    font-size: 25px;
+  }
+
+  .grid-right p {
+    font-size: 14px;
+  }
+  .asssurance-grid {
+    flex-direction: column;
+  }
+
+  .assurance-right {
+    width: 100%;
+    margin: auto;
+  }
+  .assurance-right img {
+    display: block;
+    width: 60%;
+    margin: auto;
+  }
+  .game-img-wrapper img {
+    display: none;
+  }
+  .game-text {
+    margin-left: 0;
+  }
+  .game-text h3 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .game-text p {
+    text-align: center;
+  }
+  .store-hp-buttons {
+    justify-content: center;
+  }
+
+  .game-main {
+    width: 500px;
+    height: auto;
+    padding: 100px;
+    border-radius: 50px;
+  }
+
+  footer {
+    padding: 50px;
+    flex-direction: column;
+  }
+  .icons {
+    margin: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .icons-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .inner-icons {
+    display: flex;
+  }
+
+  .footer-main {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .list-wrapper {
+    flex-direction: column;
+  }
+  .blank {
+    display: none;
+  }
+  .assurance-left {
+    width: fit-content;
+  }
+  .card .influencer-img {
+    max-width: max-content;
+    width: auto;
+  }
+  .card {
+    width: 100%;
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 499.5px) {
+  .hero-content h1 {
+    font-size: 40px;
+  }
+  object {
+    width: 120px;
+  }
+  .left-phone,
+  .right-phone,
+  .main-phone,
+  .phones-wrap,
+  .earl-right-img {
+    display: none;
+  }
+  nav {
+    padding-left: 50px;
+  }
+  nav ul {
+    display: none;
+  }
+
+  .earl-content {
+    padding: 50px;
+  }
+
+  .earl-left img {
+    width: 20%;
+  }
+
+  .earl .earl-left h2 {
+    margin-top: 20px;
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .earl-text,
+  .fans-2-text-wrapper p,
+  .influencer-text p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  #fans {
+    padding: 50px;
+  }
+
+  .fans {
+    width: 100%;
+    display: block;
+  }
+  .fans-text {
+    max-width: 100%;
+  }
+
+  .fans-text h2,
+  .fans-2-text-wrapper h2,
+  .influencer-text h2,
+  .filter-text-wrapper h2 {
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .fans p {
+    width: 100%;
+    text-align: center;
+  }
+
+  .profiles {
+    transform: scale(0.5);
+    top: 50%;
+    width: 100%;
+    margin-left: -35px;
+  }
+
+  .profile-wrapper {
+    transform: translate(130px, 600px);
+  }
+  .fans-2-main {
+    display: block;
+  }
+  .fans-2-text {
+    width: 100%;
+    padding: 50px;
+  }
+
+  .chat-fans-2,
+  .fans-2-text-wrapper h2,
+  .fans-2-text-wrapper p {
+    max-width: 100%;
+  }
+  .fans-2-text-wrapper {
+    padding-top: 0;
+  }
+
+  .chat {
+    width: 100%;
+  }
+
+  .chat-wrapper object {
+    margin-left: 10px;
+    width: auto;
+  }
+
+  #influencer {
+    padding: 50px;
+    padding-bottom: 0;
+  }
+  .influencer {
+    flex-direction: column-reverse;
+  }
+
+  .influencer-img-wrapper {
+    width: 100%;
+  }
+
+  .influencer-img-wrapper .influencer-img {
+    width: 100%;
+  }
+
+  .influencer-img-wrapper .influencer-img img {
+    width: 50%;
+    margin: auto;
+  }
+  .influencer-text {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .filter-main {
+    flex-direction: column;
+    /* padding: 50px; */
+  }
+  .card .influencer-img img {
+    width: 80%;
+  }
+
+  .card .influencer-img {
+    max-width: max-content;
+  }
+  .filter-main {
+    /* padding: 50px; */
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .filter-text {
+    width: 100%;
+  }
+  .filter-text-wrapper {
+    margin-left: 0;
+  }
+  /* .card {
+    margin: auto;
+    width: 60%;
+    margin-left: 20%;
+  } */
+  .filter-text {
+    padding: 50px;
+  }
+
+  .assurance-title {
+    font-size: 40px;
+    padding-left: 50px;
+    width: 100%;
+  }
+
+  .grid-right h4 {
+    font-size: 25px;
+  }
+
+  .grid-right p {
+    font-size: 14px;
+  }
+  .asssurance-grid {
+    flex-direction: column;
+  }
+
+  .assurance-right {
+    width: 100%;
+    margin: auto;
+  }
+  .assurance-right img {
+    display: block;
+    width: 60%;
+    margin: auto;
+  }
+  .game-img-wrapper img {
+    display: none;
+  }
+  .game-text {
+    margin-left: 0;
+  }
+  .game-text h3 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .game-text p {
+    text-align: center;
+  }
+  .store-hp-buttons {
+    justify-content: center;
+  }
+
+  .game-main {
+    height: auto;
+    padding: 50px;
+    width: 300px;
+    border-radius: 25px;
+  }
+
+  footer {
+    padding: 50px;
+    flex-direction: column;
+  }
+  .icons {
+    margin: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .icons-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .inner-icons {
+    display: flex;
+  }
+
+  .footer-main {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .list-wrapper {
+    flex-direction: column;
+  }
+  .blank {
+    display: none;
+  }
+  .assurance-left {
+    width: fit-content;
+  }
+  .card .influencer-img {
+    max-width: max-content;
+    width: auto;
+  }
+  .card {
+    width: 100%;
+    padding-bottom: 50px;
+  }
+
+  .hero-content {
+    padding: 50px;
+  }
+
+  .bubble {
+    max-width: 90%;
+    font-size: 13px;
+  }
+
+  .inner-chat-bar p {
+    font-size: 13px;
+  }
+
+  .inner-chat-bar object {
+    width: 20px;
+  }
+  .send-icon object {
+    width: 20px;
+  }
+
+  .chat-bar {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .footer-main .title {
+    font-size: 20px;
+  }
+
+  input[type="email"] {
+    padding: 8px;
+    width: 70%;
+    font-size: 14px;
+  }
+
+  [role="button"] {
+    width: 30%;
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .footer-link-header{
+    font-size: 20px;
 
   }
-  .blank{
-    display: none;
+
+
+  .footer-link-text{
+    font-size: 16px;
+
   }
 }
